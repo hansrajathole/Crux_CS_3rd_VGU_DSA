@@ -1,0 +1,26 @@
+package Lec5;
+public class Pattern8 {
+    public static void main(String[] args) {
+        int n = 5;
+        int star = n;
+        int row = 1;
+
+        while (row <= n) {
+            
+            // Star
+            int i = 1;
+            while(i<= star){
+                if(row == i  || row+i-1 == n){
+                    System.out.print("* ");
+                }else {
+                    System.out.print("  ");
+                }
+                i++;
+            }
+
+            row++;
+            System.out.println();
+        
+        }
+    }
+}
