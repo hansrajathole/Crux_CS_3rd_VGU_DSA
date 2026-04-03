@@ -28,5 +28,6 @@ public class Spiral_matrix{
             }
             minC++;
         }
+        
     }
 }
